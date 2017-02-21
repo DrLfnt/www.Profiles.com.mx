@@ -248,7 +248,7 @@ section {
 }
 
 .navbar-right li a {
-  color: #fff;
+  color: #00ae39;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -256,9 +256,16 @@ section {
   padding-bottom: 30px;
 }
 
-.navbar-right li.active a {
-  background-color: rgba(0,0,0,.2);
+.orange:hover{
+color: #ff8d3c;
 }
+.orange-active {
+  color: #ff8d3c !important;
+}
+.orange-active:hover{
+color: #00ae39 !important;
+}
+
 
 .navbar-brand h1 {
   margin-top: 5px;
@@ -975,3 +982,7 @@ ul.address {
 /*Presets*/
 
 
+.navbar-toggle .icon-bar {
+  background-color: #ff8d3c !important;
+  border: 1px solid #ff8d3c !important;
+}
