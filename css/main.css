@@ -18,7 +18,11 @@ h2 {
 h3 {
   font-size: 18px;
 }
-
+.h1green {
+  font-size: 1.25em!important;
+  font-weight: bold;
+  color: #00B03A;
+}
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;
