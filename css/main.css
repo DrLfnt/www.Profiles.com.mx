@@ -322,7 +322,19 @@ color: #00ae39 !important;
 **************************/
 #quality {
   background-image: url(../images/quality.jpg);
-  padding: 60px 0;
+  padding: 100px;
+}
+.h2quality {
+  font-size: 5em !important;
+  text-align: center;
+}
+.pquality {
+  font-size: 1.5em !important;
+  text-align: justify;
+}
+.pqualitycenter {
+  font-size: 1.5em !important;
+  text-align: center;
 }
 
 /*************************
