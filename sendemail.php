@@ -1,18 +1,15 @@
 <?php
-$name       = @trim(stripslashes($_POST['name'])); 
-$from       = @trim(stripslashes($_POST['email'])); 
-$subject    = @trim(stripslashes($_POST['subject'])); 
-$message    = @trim(stripslashes($_POST['message'])); 
-$to   		= 'drlfnt@gmail.com';//replace with your email
-
-$headers   = array();
-$headers[] = "MIME-Version: 1.0";
-$headers[] = "Content-type: text/plain; charset=iso-8859-1";
-$headers[] = "From: {$name} <{$from}>";
-$headers[] = "Reply-To: <{$from}>";
-$headers[] = "Subject: {$subject}";
-$headers[] = "X-Mailer: PHP/".phpversion();
-
-mail($to, $subject, $message, $headers);
-
-die;
+if(isset($_POST["nombre"]) && isset($_POST["email"]) && isset($_POST["comentario"]) ){
+$to = "contacto@profiles.com.mx";
+$subject = "Mensaje Enviado";
+$contenido .= "Nombre: ".$_POST["nombre"]."\n";
+$contenido .= "Email: ".$_POST["email"]."\n\n";
+$contenido .= "Comentario: ".$_POST["comentario"]."\n\n";
+$header = "From: contacto@profiles.com.mx\nReply-To:".$_POST["email"]."\n";
+$header .= "Mime-Version: 1.0\n";
+$header .= "Content-Type: text/plain";
+if(mail($to, $subject, $contenido ,$header)){
+echo "Mail Enviado.";
+}
+}
+?>
