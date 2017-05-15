@@ -50,7 +50,7 @@
 			<div class="caption">
 			<h1 class="animated fadeInLeftBig">Certificación <span>ISO 9001:2015</span></h1>
 			<p class="animated fadeInRightBig">Estamos en proceso de la certificación</p>
-			<a data-scroll class="btn btn-start animated fadeInUpBig" href="https://www.iso.org/news/2015/09/Ref2002.html" target="_blank">Calidad</a>
+			<a data-scroll class="btn btn-start animated fadeInUpBig" href="#quality" target="_blank">Calidad</a>
 			</div>
 		</div>
 		</div>
@@ -509,8 +509,9 @@
 		<div class="col-sm-6">
 			<div class="about-info wow fadeInUp text-center" style="margin-top: 75px;" data-wow-duration="1000ms" data-wow-delay="900ms">
 			<p class="pqualitycenter">Estamos en proceso de la certificación</p>
-			<h2 class="h2quality">ISO 9001:2015</h2>
-			<button class="btn-success btn-lg" href="https://www.iso.org/news/2015/09/Ref2002.html" target="_blank"><a href="https://www.iso.org/news/2015/09/Ref2002.html" style="color:white;" target="_blank">Más información</a></button>
+			<h2 class="h2quality hidden-xs hidden-sm">ISO 9001:2015</h2>
+			<h2 class="h2qualityXSSM hidden-md hidden-lg">ISO 9001:2015</h2>
+			<a class="btn btn-success btn-lg" href="https://www.iso.org/news/2015/09/Ref2002.html" target="_blank">Más información</a>
 			</div>
 		</div>
 		</div>
@@ -986,7 +987,7 @@
 		<div class="row count">
 		<div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
 			<i class="fa fa-file-text"></i>
-			<h3 class="timer">4853</h3>
+			<h3 class="timer">63275</h3>
 			<p>Encuestas realizadas</p>
 		</div>
 		<div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
@@ -1045,8 +1046,10 @@
 	</div>
   </section><!--/#twitter-->
 
+	<div id="google-map" class="wow fadeIn" data-latitude="19.630201" data-longitude="-99.031471" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
+
   <section id="contact">
-	<div id="google-map" class="wow fadeIn" data-latitude="19.630201" data-longitude="-99.031471" data-wow-duration="1000ms" data-wow-delay="400ms">
+	<!--<div id="google-map" class="wow fadeIn" data-latitude="19.630201" data-longitude="-99.031471" data-wow-duration="1000ms" data-wow-delay="400ms">-->
 	</div>
 	<div id="contact-us" class="parallax">
 		<div class="container">
@@ -1058,7 +1061,7 @@
 		<div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
 			<div class="row">
 			<div class="col-sm-6">
-				<form id="main-contact-form" name="contact-form" method="post" action="sendmail.php">
+				<form id="main-contact-form" name="contact-form" method="post" action="send.php">
 				<div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
 					<div class="col-sm-6">
 					<div class="form-group">
@@ -1072,7 +1075,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<input type="text" name="subject" class="form-control" placeholder="Asunto" required="required">
+					<input type="text" name="asunto" class="form-control" placeholder="Asunto" required="required">
 				</div>
 				<div class="form-group">
 					<textarea name="comentario" id="message" class="form-control" rows="4" placeholder="Mensaje" required="required"></textarea>
