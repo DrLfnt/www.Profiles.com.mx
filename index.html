@@ -1051,7 +1051,6 @@
 	<div id="google-map" class="wow fadeIn" data-latitude="19.630201" data-longitude="-99.031471" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
 
   <section id="contact">
-	<!--<div id="google-map" class="wow fadeIn" data-latitude="19.630201" data-longitude="-99.031471" data-wow-duration="1000ms" data-wow-delay="400ms">-->
 	</div>
 	<div id="contact-us" class="parallax">
 		<div class="container">
@@ -1064,24 +1063,24 @@
 			<div class="row">
 			<div class="col-sm-6">
 			<!-- <form id="main-contact-form" name="contact-form" method="post" action="enviar.php"> -->
-				<form id="form1" name="form1" method="post" action="enviar.php">
+				<form id="form1" name="form1" method="post" action="send.php">
 				<div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
 					<div class="col-sm-6">
 					<div class="form-group">
-						<input type="text" name="nombre" class="form-control" placeholder="Nombre" required="required">
+						<input id="nombre" type="text" name="nombre" class="form-control" placeholder="Nombre" required="required">
 					</div>
 					</div>
 					<div class="col-sm-6">
 					<div class="form-group">
-						<input type="email" name="email" class="form-control" placeholder="Correo Electrónico" required="required">
+						<input id="email" type="email" name="email" class="form-control" placeholder="Correo Electrónico" required="required">
 					</div>
 					</div>
 				</div>
 				<div class="form-group">
-					<input type="text" name="asunto" class="form-control" placeholder="Asunto" required="required">
+					<input type="text" id="asunto" name="asunto" class="form-control" placeholder="Asunto" required="required">
 				</div>
 				<div class="form-group">
-					<textarea name="comentario" id="message" class="form-control" rows="4" placeholder="Mensaje" required="required"></textarea>
+					<textarea id="comentario" name="comentario" id="message" class="form-control" rows="4" placeholder="Mensaje" required="required"></textarea>
 				</div>                        
 				<div class="form-group">
 					<button type="submit" class="btn-submit" value="Enviar">Enviar</button>
@@ -1138,6 +1137,7 @@
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCepxDcqas9UM9BrVlCdEIPVvJn5QhpJLI'></script>
   <script type="text/javascript" src="js/jquery.inview.min.js"></script>
   <script type="text/javascript" src="js/wow.min.js"></script>
   <script type="text/javascript" src="js/mousescroll.js"></script>

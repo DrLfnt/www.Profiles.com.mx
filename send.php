@@ -14,6 +14,7 @@
 
 $Nombre = $_POST['nombre'];
 $Correo = $_POST['email'];
+$Asunto = $_POST['asunto'];
 $Mensaje = $_POST['comentario'];
 
 if ($Nombre=='' || $Correo=='' || $Mensaje==''){
@@ -28,8 +29,7 @@ echo "<script>alert('Los campos marcados con * son obligatorios');location.href 
 
     $mail->From     = "enviar@profiles.com.mx";   
     $mail->FromName = $Nombre; 
-    $mail->AddAddress("eduardoas1987@gmail.com"); // Dirección a la que llegaran los mensajes, este lo puedes cambiar para test
-
+    $mail->AddAddress("contacto@profiles.com.mx");
 
 
     $mail->WordWrap = 50; 
@@ -37,6 +37,7 @@ echo "<script>alert('Los campos marcados con * son obligatorios');location.href 
     $mail->Subject  =  "Contacto";
     $mail->Body     =  "Nombre: $Nombre \n<br />".
     "Email: $Correo \n<br />".
+    "Asunto: $Asunto \n<br />".
     "Mensaje: $Mensaje \n<br />";
 
 
@@ -49,9 +50,9 @@ echo "<script>alert('Los campos marcados con * son obligatorios');location.href 
 
     if ($mail->Send())
         
-    echo "<script>alert('Mensaje enviado correctamente');location.href ='javascript:history.back()';</script>";
+    echo "<script>location.href ='javascript:history.back()';</script>";
     else
-    echo "<script>alert('Error al enviar el formulario');location.href ='javascript:history.back()';</script>";
+    echo "<script>location.href ='javascript:history.back()';</script>";
 
 }
 
