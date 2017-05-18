@@ -28,7 +28,7 @@ echo "<script>alert('Los campos marcados con * son obligatorios');location.href 
 
     $mail->From     = "enviar@profiles.com.mx";   
     $mail->FromName = $Nombre; 
-    $mail->AddAddress("dr.lfnt@gmail.com"); // Dirección a la que llegaran los mensajes, este lo puedes cambiar para test
+    $mail->AddAddress("argenis@saits.xyz"); // Dirección a la que llegaran los mensajes, este lo puedes cambiar para test
 
 
 
