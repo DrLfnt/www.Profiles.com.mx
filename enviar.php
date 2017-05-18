@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<title>Contacto Profiles</title> <!-- Aquí va el título de la página -->
+<title>Contact Form</title> <!-- Aquí va el título de la página -->
 
 </head>
 
@@ -15,13 +15,14 @@
 $Nombre = $_POST['nombre'];
 $Correo = $_POST['email'];
 $Mensaje = $_POST['comentario'];
-
+$Telefono = $_POST['telefono'];
+/*
 if ($Nombre=='' || $Correo=='' || $Mensaje==''){
 
 echo "<script>alert('Los campos marcados con * son obligatorios');location.href ='javascript:history.back()';</script>";
 
 }else{
-
+*/
 
     require("includes/class.phpmailer.php");
     $mail = new PHPMailer();
@@ -42,7 +43,7 @@ echo "<script>alert('Los campos marcados con * son obligatorios');location.href 
 
 
     $mail->IsSMTP(); 
-    $mail->Host = "mail.profiles.com.mx";  
+    $mail->Host = "profiles.com.mx";  
     $mail->SMTPAuth = true; 
     $mail->Username = "enviar@profiles.com.mx";  
     $mail->Password = "GB7sTG7QMmG("; 
@@ -53,7 +54,7 @@ echo "<script>alert('Los campos marcados con * son obligatorios');location.href 
     else
     echo "<script>alert('Error al enviar el formulario');location.href ='javascript:history.back()';</script>";
 
-}
+//}
 
 ?>
 </body>
