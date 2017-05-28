@@ -119,21 +119,6 @@ jQuery(function($) {
 		$("#portfolio-single").slideUp(500);
 	});
 
-	// Contact form
-	var form = $('#main-contact-form');
-	form.submit(function(event){
-		event.preventDefault();
-		var form_status = $('<div class="form_status"></div>');
-		$.ajax({
-			url: $(this).attr('action'),
-			beforeSend: function(){
-				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> El correo electrónico se esta enviando...</p>').fadeIn() );
-			}
-		}).done(function(data){
-			form_status.html('<p class="text-success">Gracias por contactarnos. Nos pondremos en contacto lo antes posible. Gracias</p>').delay(3000).fadeOut();
-		});
-	});
-
 	//Google Map
 	var latitude = $('#google-map').data('latitude')
 	var longitude = $('#google-map').data('longitude')

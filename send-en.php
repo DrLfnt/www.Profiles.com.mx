@@ -21,23 +21,23 @@ $Mensaje = $_POST['comentario'];
 
 if ($Nombre=='' || $Correo=='' || $Oficina=='' || $Movil=='' || $Asunto=='' || $Mensaje==''){
 
-echo "<script>alert('Los campos marcados con * son obligatorios');location.href ='javascript:history.back()';</script>";
+echo "<script>alert('Fields marked with * are required');location.href ='javascript:history.back()';</script>";
 
 }else{
     require("includes/class.phpmailer.php");
     $mail = new PHPMailer();
     $mail->From     = "enviar@profiles.com.mx";   
     $mail->FromName = $Nombre; 
-    $mail->AddAddress("contacto@profiles.com.mx");
+    $mail->AddAddress("edgar.rivas@profiles.com.mx");
     $mail->WordWrap = 50; 
     $mail->IsHTML(true);     
     $mail->Subject  =  "Contacto";
-    $mail->Body     =  "Nombre: $Nombre \n<br />".
+    $mail->Body     =  "Name: $Nombre \n<br />".
     "Email: $Correo \n<br />".
-    "Oficina: $Oficina \n<br />".
-    "Movil: $Movil \n<br />".
-    "Asunto: $Asunto \n<br />".
-    "Mensaje: $Mensaje \n<br />";
+    "Office: $Oficina \n<br />".
+    "Mobile: $Movil \n<br />".
+    "Matter: $Asunto \n<br />".
+    "Message: $Mensaje \n<br />";
     $mail->IsSMTP(); 
     $mail->Host = "mail.profiles.com.mx";  
     $mail->SMTPAuth = true; 
