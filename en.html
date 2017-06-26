@@ -20,553 +20,730 @@
 	<link href="css/main.css" rel="stylesheet">
 	<link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
-
 	<!--[if lt IE 9]>
-	<script src="js/html5shiv.js"></script>
-	<script src="js/respond.min.js"></script>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
 	<![endif]-->
-	
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="images/favicon.ico">
 </head><!--/head-->
-
 <body>
-
 	<!--.preloader-->
-	<div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+	<div class="preloader">
+		<i class="fa fa-circle-o-notch fa-spin"></i>
+	</div>
 	<!--/.preloader-->
-
 	<header id="home">
-	<div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-		<div class="carousel-inner">
-		<div class="item active" style="background-image: url(images/slider/1.jpg)">
-			<div class="caption">
-			<h1 class="animated fadeInLeftBig">Welcome to <span>Profiles</span></h1>
-			<p class="animated fadeInRightBig">&nbsp;</p>
-			<a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Services</a>
+		<div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="item active" style="background-image: url(images/slider/1.jpg)">
+					<div class="caption">
+						<h1 class="animated fadeInLeftBig">
+							Welcome to <span>Profiles</span>
+						</h1>
+						<p class="animated fadeInRightBig">
+							&nbsp;
+						</p>
+						<a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">
+							Services
+						</a>
+					</div>
+				</div>
+				<div class="item" style="background-image: url(images/slider/2.jpg)">
+					<div class="caption">
+						<h1 class="animated fadeInLeftBig">
+							We are <span>Experts</span>
+						</h1>
+						<p class="animated fadeInRightBig">
+							in fieldwork marketing research
+						</p>
+						<a data-scroll class="btn btn-start animated fadeInUpBig" href="#portfolio">
+							Success
+						</a>
+					</div>
+				</div>
+				<div class="item" style="background-image: url(images/slider/3.jpg)">
+					<div class="caption">
+						<h1 class="animated fadeInLeftBig">
+							Certification <span>ISO 9001:2015</span>
+						</h1>
+						<p class="animated fadeInRightBig">
+							We are in the process of certification
+						</p>
+						<a data-scroll class="btn btn-start animated fadeInUpBig" href="#quality" target="_blank">
+							Quality
+						</a>
+					</div>
+				</div>
 			</div>
-		</div>
-		<div class="item" style="background-image: url(images/slider/2.jpg)">
-			<div class="caption">
-			<h1 class="animated fadeInLeftBig">We are <span>Experts</span></h1>
-			<p class="animated fadeInRightBig">in fieldwork marketing research</p>
-			<a data-scroll class="btn btn-start animated fadeInUpBig" href="#portfolio">Success</a>
+			<a class="left-control" href="#home-slider" data-slide="prev">
+				<i class="fa fa-angle-left"></i>
+			</a>
+			<a class="right-control" href="#home-slider" data-slide="next">
+				<i class="fa fa-angle-right"></i>
+			</a>
+			<a id="tohash" href="#services">
+				<i class="fa fa-angle-down"></i>
+			</a>
+		</div><!--/#home-slider-->
+		<div class="main-nav">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">
+						<h1>
+							<img class="img-responsive" src="images/logo.png" alt="logo">
+						</h1>
+					</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="scroll active">
+							<a class="orange" href="#home">
+								Home
+							</a>
+						</li>
+						<li class="scroll">
+							<a class="orange" href="#services">
+								Services
+							</a>
+						</li> 
+						<li class="scroll">
+							<a class="orange" href="coverage.html">
+								Coverage
+							</a>
+						</li>
+						<li class="scroll">
+							<a class="orange" href="#about-us">
+								About US
+							</a>
+						</li>
+						<li class="scroll">
+							<a class="orange" href="#portfolio">
+								Clients
+							</a>
+						</li>
+						<li class="scroll">
+							<a class="orange" href="#team">
+								Team
+							</a>
+						</li>
+						<li class="scroll">
+							<a class="orange" href="#contact">
+								Contact
+							</a>
+						</li>
+						<li class="scroll">
+							<a class="orange-active" href="index.html">
+								Espanish
+							</a>
+						</li>
+						<li class="scroll">
+							<a class="orange" href="https://www.facebook.com/Profilesmkt" target="_blank">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						<li class="scroll">
+							<a class="orange" href="https://twitter.com/Profilesmkt" target="_blank">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</div>
-		<div class="item" style="background-image: url(images/slider/3.jpg)">
-			<div class="caption">
-			<h1 class="animated fadeInLeftBig">Certification <span>ISO 9001:2015</span></h1>
-			<p class="animated fadeInRightBig">We are in the process of certification</p>
-			<a data-scroll class="btn btn-start animated fadeInUpBig" href="#quality" target="_blank">Quality</a>
-			</div>
-		</div>
-		</div>
-		<a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-		<a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
-
-		<a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
-
-	</div><!--/#home-slider-->
-	<div class="main-nav">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html">
-					<h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
-				</a>
-			</div>
-			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="scroll active"><a class="orange" href="#home">Home</a></li>
-					<li class="scroll"><a class="orange" href="#services">Services</a></li> 
-					<li class="scroll"><a class="orange" href="coverage.html">Coverage</a></li> 
-					<li class="scroll"><a class="orange" href="#about-us">About US</a></li>
-					<li class="scroll"><a class="orange" href="#portfolio">Clients</a></li>
-					<li class="scroll"><a class="orange" href="#team">Team</a></li>
-					<li class="scroll"><a class="orange" href="#contact">Contact</a></li>
-					<li class="scroll"><a class="orange-active" href="index.html">Espanish</a></li>
-					<li class="scroll"><a class="orange" href="https://www.facebook.com/Profilesmkt" target="_blank"><i class="fa fa-facebook"></i></a></li>
-					<li class="scroll"><a class="orange" href="https://twitter.com/Profilesmkt" target="_blank"><i class="fa fa-twitter"></i></a></li>
-				</ul>
-			</div>
-		</div>
-	</div><!--/#main-nav-->
+		</div><!--/#main-nav-->
 	</header><!--/#home-->
 	<section id="services">
-	<div class="container">
-		<div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-			<div class="row">
-				<div class="text-center col-sm-8 col-sm-offset-2">
-					<h2>The services that we provide are:</h2>
-					<p>Human resources for conducting marketing research projects.</p>
-				</div>
-			</div> 
-		</div>
-		<div class="text-center our-services">
-			<div class="row">
-				<div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-					<div class="service-icon">
-						<i class="fa fa-pencil"></i>
+		<div class="container">
+			<div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+				<div class="row">
+					<div class="text-center col-sm-8 col-sm-offset-2">
+						<h2>
+							The services that we provide are:
+						</h2>
+						<p>
+							Human resources for conducting marketing research projects.
+						</p>
 					</div>
-					<div class="service-info">
-						<h3>Surveys</h3>
+				</div> 
+			</div>
+			<div class="text-center our-services">
+				<div class="row">
+					<div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<div class="service-icon">
+							<i class="fa fa-pencil"></i>
+						</div>
+						<div class="service-info">
+							<h3>
+								Surveys
+							</h3>
+						</div>
+						<p>
+							F2F, CAPI, CATI, PAPI, B2B, CLT
+						</p>
 					</div>
-					<p>
-						F2F, CAPI, CATI, PAPI, B2B, CLT
-					</p>
-				</div>
-				<div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-					<div class="service-icon">
-						<i class="fa fa-shopping-cart"></i>
+					<div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+						<div class="service-icon">
+							<i class="fa fa-shopping-cart"></i>
+						</div>
+						<div class="service-info">
+							<h3>
+								Mystery Shopper
+							</h3>
+						</div>
 					</div>
-					<div class="service-info">
-						<h3>Mystery Shopper</h3>
+					<div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+						<div class="service-icon">
+							<i class="fa fa-users"></i>
+						</div>
+						<div class="service-info">
+							<h3>
+								Focus Group
+							</h3>
+						</div>
 					</div>
-				</div>
-				<div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-					<div class="service-icon">
-						<i class="fa fa-users"></i>
-					</div>
-					<div class="service-info">
-						<h3>Focus Group</h3>
-					</div>
-				</div>
-				<div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-					<div class="service-icon">
-						<i class="fa fa-handshake-o"></i>
-					</div>
-					<div class="service-info">
-						<h3>Depth interviews</h3>
+					<div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+						<div class="service-icon">
+							<i class="fa fa-handshake-o"></i>
+						</div>
+						<div class="service-info">
+							<h3>
+								Depth interviews
+							</h3>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</section><!--/#services-->
 	<section id="otherservices">
-	<div class="container">
-		<div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-			<div class="row">
-				<div class="text-center col-sm-8 col-sm-offset-2">
-					<h2>Information processing</h2>
-					<p>Once the information is obtained we use tools for processing according to your needs.</p>
-				</div>
-			</div> 
-		</div>
-		<div class="text-center our-services">
-			<div class="row">
-				<div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-					<div class="service-icon">
-						<i class="fa fa-laptop"></i>
+		<div class="container">
+			<div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+				<div class="row">
+					<div class="text-center col-sm-8 col-sm-offset-2">
+						<h2>
+							Information processing
+						</h2>
+						<p>
+							Once the information is obtained we use tools for processing according to your needs.
+						</p>
 					</div>
-					<div class="service-info">
-						<h3>Coding</h3>
+				</div> 
+			</div>
+			<div class="text-center our-services">
+				<div class="row">
+					<div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<div class="service-icon">
+							<i class="fa fa-laptop"></i>
+						</div>
+						<div class="service-info">
+							<h3>
+								Coding
+							</h3>
+						</div>
 					</div>
-				</div>
-				<div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-					<div class="service-icon">
-						<i class="fa fa-keyboard-o"></i>
+					<div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+						<div class="service-icon">
+							<i class="fa fa-keyboard-o"></i>
+						</div>
+						<div class="service-info">
+							<h3>
+								Capture
+							</h3>
+						</div>
 					</div>
-					<div class="service-info">
-						<h3>Capture</h3>
+					<div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+						<div class="service-icon">
+							<i class="fa fa-table"></i>
+						</div>
+						<div class="service-info">
+							<h3>
+								Tabulations
+							</h3>
+						</div>
 					</div>
-				</div>
-				<div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
-					<div class="service-icon">
-						<i class="fa fa-table"></i>
-					</div>
-					<div class="service-info">
-						<h3>Tabulations</h3>
-					</div>
-				</div>
-				<div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
-					<div class="service-icon">
-						<i class="fa fa-pencil-square-o"></i>
-					</div>
-					<div class="service-info">
-						<h3>Transcripts</h3>
+					<div class="col-sm-3 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+						<div class="service-icon">
+							<i class="fa fa-pencil-square-o"></i>
+						</div>
+						<div class="service-info">
+							<h3>
+								Transcripts
+							</h3>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</section><!--/#others services-->
 	<section id="otherservices">
-	<div class="container">
-		<div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-			<div class="row">
-				<div class="text-center col-sm-8 col-sm-offset-2">
-					<h2>Other services</h2>
-				</div>
-			</div> 
-		</div>
-		<div class="text-center our-services">
-			<div class="row">
-				<div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-					<div class="service-icon">
-						<i class="fa fa-list-ol"></i>
+		<div class="container">
+			<div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+				<div class="row">
+					<div class="text-center col-sm-8 col-sm-offset-2">
+						<h2>
+							Other services
+						</h2>
 					</div>
-					<div class="service-info">
-						<h3>Counts</h3>
+				</div> 
+			</div>
+			<div class="text-center our-services">
+				<div class="row">
+					<div style="border:none;" class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<div class="service-icon">
+							<i class="fa fa-list-ol"></i>
+						</div>
+						<div class="service-info">
+							<h3>
+								Counts
+							</h3>
+						</div>
 					</div>
-				</div>
-				<div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-					<div class="service-icon">
-						<i class="fa fa-handshake-o"></i>
+					<div style="border:none;" class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+						<div class="service-icon">
+							<i class="fa fa-handshake-o"></i>
+						</div>
+						<div class="service-info">
+							<h3>
+								Recruitment
+							</h3>
+						</div>
 					</div>
-					<div class="service-info">
-						<h3>Recruitment</h3>
-					</div>
-				</div>
-				<div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
-					<div class="service-icon">
-						<i class="fa fa-eye"></i>
-					</div>
-					<div class="service-info">
-						<h3>Supervision of field staff</h3>
+					<div style="border:none;" class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+						<div class="service-icon">
+							<i class="fa fa-eye"></i>
+						</div>
+						<div class="service-info">
+							<h3>
+								Supervision of field staff
+							</h3>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</section><!--/#others services-->
 	<section id="about-us" class="parallax">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-6">
-				<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-					<h2>About Us</h2>
-					<p class="text-justify">We are a multidisciplinary youth group of experts in different fields with a main objective of promoting, encouraging and consolidating a new concept in market research based on our innovative service scheme of service.
-					</p>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-					<p class="lead">Experience</p>
-					<div class="progress">
-					<div class="progress-bar progress-bar-primary progress-bar-striped active six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">100%</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<h2>
+							About Us
+						</h2>
+						<p class="text-justify">
+							We are a multidisciplinary youth group of experts in different fields with a main objective of promoting, encouraging and consolidating a new concept in market research based on our innovative service scheme of service.
+						</p>
 					</div>
 				</div>
-				<div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
-					<p class="lead">Professionalism</p>
-					<div class="progress">
-					<div class="progress-bar progress-bar-primary progress-bar-striped active six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">100%</div>
-					</div>
-				</div>
-				<div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
-					<p class="lead">Effectiveness</p>
-					<div class="progress">
-					<div class="progress-bar progress-bar-primary progress-bar-striped active six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">100%</div>
-					</div>
-				</div>
-				<div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-					<p class="lead">Attitude</p>
-					<div class="progress">
-					<div class="progress-bar progress-bar-primary progress-bar-striped active six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">100%</div>
-					</div>
-				</div>
-				</div>
-			</div>
-			<div><br><br></div>
-			<div class="col-sm-12">
-				<div class="col-sm-6">
+				<div class="col-sm-4">
 					<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-						<h2>Mission</h2>
+						<h2>
+							Mission
+						</h2>
 						<p class="text-justify">
 							To make an important contribution within the market research industry to the optimal development of research projects, obtaining with this a profitable and professional benefit of all those who integrate Profiles.
 						</p>
 					</div>
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-4">
 					<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-						<h2>Vision</h2>
+						<h2>
+							Vision
+						</h2>
 						<p class="text-justify">
 							To be part of a select group of suppliers, to grow as a professional service provider by adopting new knowledge, technologies and methodologies for conducting research.
 						</p>
 					</div>
 				</div>
-				<div class="col-sm-3">
-					<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
-						<h2>Perseverance</h2>
-						<p class="text-justify">
-							Being always in constant research to achieve improvement in the field of research.
-						</p>
+				<div class="col-md-12">
+					<hr>
+				</div>
+				<div class="col-sm-6">
+					<div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+							<p class="lead">
+								Experience
+							</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-primary progress-bar-striped active six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">
+									100%
+								</div>
+							</div>
+						</div>
+						<div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+							<p class="lead">
+								Professionalism
+							</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-primary progress-bar-striped active six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">
+									100%
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
-					<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-						<h2>Passion</h2>
-						<p class="text-justify">
-							Working in market research is an integral part of our lives, every project is a challenge and an experience of learning; a growth opportunity. 
-						</p>
+				<div class="col-sm-6">
+					<div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+							<p class="lead">
+								Effectiveness
+							</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-primary progress-bar-striped active six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">
+									100%
+								</div>
+							</div>
+						</div>
+						<div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+							<p class="lead">
+								Attitude
+							</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-primary progress-bar-striped active six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">
+									100%
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
-					<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="700ms">
-						<h2>Adaptability</h2>
-						<p class="text-justify">
-							We adapt to the project needs regardless how difficult they might seem; always looking for ideas, forms, activities, etc., which lead to the timely delivery of the project.
-						</p>
-					</div>
+				<div class="col-md-12">
+					<hr>
+					<h2 class="text-center about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+						Values
+					</h2>
 				</div>
-				<div class="col-sm-3">
-					<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="900ms">
-						<h2>Discipline</h2>
-						<p class="text-justify">
-							We know that every project has specific and various needs, therefore we are responsible in all the demanded activities.
-						</p>
+				<div class="col-sm-12">
+					<div class="col-sm-3">
+						<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
+							<h2>
+								Perseverance
+							</h2>
+							<p class="text-justify">
+								Being always in constant research to achieve improvement in the field of research.
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+							<h2>
+								Passion
+							</h2>
+							<p class="text-justify">
+								Working in market research is an integral part of our lives, every project is a challenge and an experience of learning; a growth opportunity. 
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="700ms">
+							<h2>
+								Adaptability
+							</h2>
+							<p class="text-justify">
+								We adapt to the project needs regardless how difficult they might seem; always looking for ideas, forms, activities, etc., which lead to the timely delivery of the project.
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="900ms">
+							<h2>
+								Discipline
+							</h2>
+							<p class="text-justify">
+								We know that every project has specific and various needs, therefore we are responsible in all the demanded activities.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</section><!--/#about-us-->
-
 	<section id="contact-us" class="parallax">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12">
-				<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-					<h1 class="text-center">Coverage</h1>
-					<h2 class="text-center">We have an extensive coverage allowing us and our clients to ensure the execution of the project by always maintaining a pattern of growth in which we intend to gradually cover towns and cities across our country.</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12">
+					<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<h1 class="text-center">
+							Coverage
+						</h1>
+						<h2 class="text-center">
+							We have an extensive coverage allowing us and our clients to ensure the execution of the project by always maintaining a pattern of growth in which we intend to gradually cover towns and cities across our country.
+						</h2>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</section><!--/#quality-->
-
 	<section id="portfolio" style="padding-bottom:0;">
-	<div class="container">
-		<div class="row">
-		<div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-			<h2>Some of our Clients</h2>
-			<p>We developed high impact studies for clients as well<br>as for agencies that require strategic support</p>
+		<div class="container">
+			<div class="row">
+				<div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+					<h2>
+						Some of our Clients
+					</h2>
+					<p>
+						We developed high impact studies for clients as well<br>as for agencies that require strategic support
+					</p>
+				</div>
+			</div> 
 		</div>
-		</div> 
-	</div>
-	<div class="container-fluid">
-		<div class="row">
-		<div class="col-sm-3">
-			<div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-			<div class="folio-image">
-				<img class="img-responsive" src="images/portfolio/1.jpg" alt="">
-			</div>
-			<div class="overlay">
-				<div class="overlay-content">
-				<div class="overlay-text">
-					<div class="folio-info">
-					<h3>Acertiva</h3>
-					</div>
-					<div class="folio-overview">
-						<span class="folio-expand">
-							<a href="http://www.acertiva.com/english/index.html" target="_blank"><i class="fa fa-link"></i>
-							</a>
-						</span>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<div class="folio-image">
+							<img class="img-responsive" src="images/portfolio/1.jpg" alt="">
+						</div>
+						<div class="overlay">
+							<div class="overlay-content">
+								<div class="overlay-text">
+									<div class="folio-info">
+										<h3>
+											Acertiva
+										</h3>
+									</div>
+									<div class="folio-overview">
+										<span class="folio-expand">
+											<a href="http://www.acertiva.com/english/index.html" target="_blank">
+												<i class="fa fa-link"></i>
+											</a>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
+				<div class="col-sm-3">
+					<div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+						<div class="folio-image">
+							<img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+						</div>
+						<div class="overlay">
+							<div class="overlay-content">
+								<div class="overlay-text">
+									<div class="folio-info">
+										<h3>
+											GDV Group
+										</h3>
+									</div>
+									<div class="folio-overview">
+										<span class="folio-expand">
+											<a href="http://www.gdv.com.mx/en" target="_blank">
+												<i class="fa fa-link"></i>
+											</a>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
+				<div class="col-sm-3">
+					<div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+						<div class="folio-image">
+							<img class="img-responsive" src="images/portfolio/3.jpg" alt="">
+						</div>
+						<div class="overlay">
+							<div class="overlay-content">
+								<div class="overlay-text">
+									<div class="folio-info">
+										<h3>
+											Instituto de investigaciones sociales
+										</h3>
+									</div>
+									<div class="folio-overview">
+										<span class="folio-expand">
+											<a href="http://www.iisociales.mx/" target="_blank">
+												<i class="fa fa-link"></i>
+											</a>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+						<div class="folio-image">
+							<img class="img-responsive" src="images/portfolio/4.jpg" alt="">
+						</div>
+						<div class="overlay">
+							<div class="overlay-content">
+								<div class="overlay-text">
+									<div class="folio-info">
+										<h3>
+											Grupo KP
+										</h3>
+									</div>
+									<div class="folio-overview">
+										<span class="folio-expand">
+											<a href="http://www.kp.com.mx/" target="_blank">
+												<i class="fa fa-link"></i>
+											</a>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+						<div class="folio-image">
+							<img class="img-responsive" src="images/portfolio/5en.jpg" alt="">
+						</div>
+						<div class="overlay">
+							<div class="overlay-content">
+								<div class="overlay-text">
+									<div class="folio-info">
+										<h3>
+											Weber Shandwick
+										</h3>
+									</div>
+									<div class="folio-overview">
+										<span class="folio-expand">
+											<a href="http://www.webershandwick.com/" target="_blank">
+												<i class="fa fa-link"></i>
+											</a>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
+						<div class="folio-image">
+							<img class="img-responsive" src="images/portfolio/6.jpg" alt="">
+						</div>
+						<div class="overlay">
+							<div class="overlay-content">
+								<div class="overlay-text">
+									<div class="folio-info">
+										<h3>
+											GFK
+										</h3>
+									</div>
+									<div class="folio-overview">
+										<span class="folio-expand">
+											<a href="http://www.gfk.com/en-us/" target="_blank">
+												<i class="fa fa-link"></i>
+											</a>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
+						<div class="folio-image">
+							<img class="img-responsive" src="images/portfolio/7.jpg" alt="">
+						</div>
+						<div class="overlay">
+							<div class="overlay-content">
+								<div class="overlay-text">
+									<div class="folio-info">
+										<h3>
+											Nielsen
+										</h3>
+									</div>
+									<div class="folio-overview">
+										<span class="folio-expand">
+											<a href="http://www.nielsen.com/us/en.html" target="_blank">
+												<i class="fa fa-link"></i>
+											</a>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="iso" class="col-sm-3">
+					<div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
+						<div class="folio-image">
+							<img class="img-responsive" src="images/portfolio/8.jpg" alt="">
+						</div>
+						<div class="overlay">
+							<div class="overlay-content">
+								<div class="overlay-text">
+									<div class="folio-info">
+										<h3>
+											Q Solutions
+										</h3>
+									</div>
+									<div class="folio-overview">
+										<span class="folio-expand">
+											<a href="http://solucionesq.com.mx/us/en-home/" target="_blank">
+												<i class="fa fa-link"></i>
+											</a>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="col-sm-3">
-			<div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-			<div class="folio-image">
-				<img class="img-responsive" src="images/portfolio/2.jpg" alt="">
-			</div>
-			<div class="overlay">
-				<div class="overlay-content">
-				<div class="overlay-text">
-					<div class="folio-info">
-					<h3>GDV Group</h3>
-					</div>
-					<div class="folio-overview">
-						<span class="folio-expand">
-							<a href="http://www.gdv.com.mx/en" target="_blank"><i class="fa fa-link"></i>
-							</a>
-						</span>
-					</div>
-				</div>
-				</div>
-			</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-			<div class="folio-image">
-				<img class="img-responsive" src="images/portfolio/3.jpg" alt="">
-			</div>
-			<div class="overlay">
-				<div class="overlay-content">
-				<div class="overlay-text">
-					<div class="folio-info">
-					<h3>Instituto de investigaciones sociales</h3>
-					</div>
-					<div class="folio-overview">
-						<span class="folio-expand">
-							<a href="http://www.iisociales.mx/" target="_blank"><i class="fa fa-link"></i>
-							</a>
-						</span>
-					</div>
-				</div>
-				</div>
-			</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
-			<div class="folio-image">
-				<img class="img-responsive" src="images/portfolio/4.jpg" alt="">
-			</div>
-			<div class="overlay">
-				<div class="overlay-content">
-				<div class="overlay-text">
-					<div class="folio-info">
-					<h3>Grupo KP</h3>
-					</div>
-					<div class="folio-overview">
-						<span class="folio-expand">
-							<a href="http://www.kp.com.mx/" target="_blank"><i class="fa fa-link"></i>
-							</a>
-						</span>
-					</div>
-				</div>
-				</div>
-			</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-			<div class="folio-image">
-				<img class="img-responsive" src="images/portfolio/5en.jpg" alt="">
-			</div>
-			<div class="overlay">
-				<div class="overlay-content">
-				<div class="overlay-text">
-					<div class="folio-info">
-					<h3>Weber Shandwick</h3>
-					</div>
-					<div class="folio-overview">
-						<span class="folio-expand">
-							<a href="http://www.webershandwick.com/" target="_blank"><i class="fa fa-link"></i>
-							</a>
-						</span>
-					</div>
-				</div>
-				</div>
-			</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
-			<div class="folio-image">
-				<img class="img-responsive" src="images/portfolio/6.jpg" alt="">
-			</div>
-			<div class="overlay">
-				<div class="overlay-content">
-				<div class="overlay-text">
-					<div class="folio-info">
-					<h3>GFK</h3>
-					</div>
-					<div class="folio-overview">
-						<span class="folio-expand">
-							<a href="http://www.gfk.com/en-us/" target="_blank"><i class="fa fa-link"></i>
-							</a>
-						</span>
-					</div>
-				</div>
-				</div>
-			</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
-			<div class="folio-image">
-				<img class="img-responsive" src="images/portfolio/7.jpg" alt="">
-			</div>
-			<div class="overlay">
-				<div class="overlay-content">
-				<div class="overlay-text">
-					<div class="folio-info">
-					<h3>Nielsen</h3>
-					</div>
-					<div class="folio-overview">
-						<span class="folio-expand">
-							<a href="http://www.nielsen.com/us/en.html" target="_blank"><i class="fa fa-link"></i>
-							</a>
-						</span>
-					</div>
-				</div>
-				</div>
-			</div>
-			</div>
-		</div>
-		<div id="iso" class="col-sm-3">
-			<div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
-			<div class="folio-image">
-				<img class="img-responsive" src="images/portfolio/8.jpg" alt="">
-			</div>
-			<div class="overlay">
-				<div class="overlay-content">
-				<div class="overlay-text">
-					<div class="folio-info">
-					<h3>Q Solutions</h3>
-					</div>
-					<div class="folio-overview">
-						<span class="folio-expand">
-							<a href="http://solucionesq.com.mx/us/en-home/" target="_blank"><i class="fa fa-link"></i>
-							</a>
-						</span>
-					</div>
-				</div>
-				</div>
-			</div>
-			</div>
-		</div>
-		</div>
-	</div>
-	<div id="portfolio-single-wrap">
-		<div></div>
-	</div><!-- /#portfolio-single-wrap -->
+		<div id="portfolio-single-wrap">
+			<div></div>
+		</div><!-- /#portfolio-single-wrap -->
 	</section><!--/#portfolio-->
-
 	<section id="quality" class="parallax">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-6">
-				<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-					<h2 class="h2quality hidden-xs hidden-sm">Our Quality Policy</h2>
-					<h2 class="h2qualityXSSM hidden-md hidden-lg">Our Quality Policy</h2>
-					<p class="pquality hidden-xs hidden-sm">Provide market intelligence services satisfying the needs of our clients, by the hand with the quality standards of the industry adopting as a culture the commitment of continuous improvement in all the processes that we do.</p>
-					<p class="hidden-md hidden-lg">Provide market intelligence services satisfying the needs of our clients, by the hand with the quality standards of the industry adopting as a culture the commitment of continuous improvement in all the processes that we do.</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					<div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<h2 class="h2quality hidden-xs hidden-sm">
+							Our Quality Policy
+						</h2>
+						<h2 class="h2qualityXSSM hidden-md hidden-lg">
+							Our Quality Policy
+						</h2>
+						<p class="pquality hidden-xs hidden-sm">
+							Provide market intelligence services satisfying the needs of our clients, by the hand with the quality standards of the industry adopting as a culture the commitment of continuous improvement in all the processes that we do.
+						</p>
+						<p class="hidden-md hidden-lg">
+							Provide market intelligence services satisfying the needs of our clients, by the hand with the quality standards of the industry adopting as a culture the commitment of continuous improvement in all the processes that we do.
+						</p>
+					</div>
 				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6">
-				<div class="about-info wow fadeInUp text-center" style="margin-top: 75px;" data-wow-duration="1000ms" data-wow-delay="900ms">
-					<p class="center">We are in the process of certification</p>
-					<center>
-						<img src="images/portfolio/iso.png" class="img-responsive" alt="ISO 9001:2015">
-					</center>
-					<a class="btn btn-success btn-lg" href="https://www.iso.org/news/2015/09/Ref2002.html" target="_blank">More information</a>
+				<div class="col-xs-12 col-sm-6">
+					<div class="about-info wow fadeInUp text-center" style="margin-top: 75px;" data-wow-duration="1000ms" data-wow-delay="900ms">
+						<p class="center">
+							We are in the process of certification
+						</p>
+						<center>
+							<img src="images/portfolio/iso.png" class="img-responsive" alt="ISO 9001:2015">
+						</center>
+						<a class="btn btn-success btn-lg" href="https://www.iso.org/news/2015/09/Ref2002.html" target="_blank">
+							More information
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</section><!--/#quality-->
-
 	<section id="galeria" class="parallax">
 		<div>
 			<div class="container-fluid">
 				<div class="row">
 					<div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-						<h1><span class="h1green">We have 15 years of experience</span></h1>
+						<h1>
+							<span class="h1green">We have 15 years of experience</span>
+						</h1>
 					</div>
-					
 					<div class="col-md-12 titlegallery">
 						<div class="text-center">
 							<h2>
@@ -579,7 +756,6 @@
 							<br><br>
 						</div>
 					</div>
-
 					<div class="row">
 						<div class="col-md-12">
 							<div class="col-md-4 paddinggallery">
@@ -599,7 +775,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="row">
 						<div class="col-md-12">
 							<div class="col-md-3 paddinggallery">
@@ -624,25 +799,28 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="row paddinggallerybtn">
 						<a href="gallery.html">
-							<div class="col-md-12 text-center gallerybtn zoom">View More</div>
+							<div class="col-md-12 text-center gallerybtn zoom">
+								View More
+							</div>
 						</a>
 					</div>
-
 				</div>
 			</div>
 		</div>
 	</section><!--/#galeria-->
-
 	<section id="team">
 		<div class="container">
 			<div class="row">
 				<div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
 					<br><br><br>
-					<h2>Our Team</h2>
-					<p>Partners and equipment are distributed in strategic cities to cover all of Mexico.</p>
+					<h2>
+						Our Team
+					</h2>
+					<p>
+						Partners and equipment are distributed in strategic cities to cover all of Mexico.
+					</p>
 				</div>
 			</div>
 			<div class="team-members">
@@ -653,8 +831,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/1.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Olga Espinoza</h3>
-								<h4 class="boldh4">Executive Director</h4>
+								<h3 class="bold">
+									Olga Espinoza
+								</h3>
+								<h4 class="boldh4">
+									Executive Director
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -664,8 +846,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/2.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Juan Langle</h3>
-								<h4 class="boldh4">Supervisor</h4>
+								<h3 class="bold">
+									Juan Langle
+								</h3>
+								<h4 class="boldh4">
+									Supervisor
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -675,8 +861,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/3.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Veronica Arista</h3>
-								<h4 class="boldh4">Administrative Coordinator</h4>
+								<h3 class="bold">
+									Veronica Arista
+								</h3>
+								<h4 class="boldh4">
+									Administrative Coordinator
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -686,8 +876,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/4.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Carlos Zuñiga</h3>
-								<h4 class="boldh4">Researcher especial projects</h4>
+								<h3 class="bold">
+									Carlos Zuñiga
+								</h3>
+								<h4 class="boldh4">
+									Researcher especial projects
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -699,8 +893,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/5.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Ericka Langle</h3>
-								<h4 class="boldh4">Lider Researcher</h4>
+								<h3 class="bold">
+									Ericka Langle
+								</h3>
+								<h4 class="boldh4">
+									Lider Researcher
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -710,8 +908,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/6.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">María Mendoza</h3>
-								<h4 class="boldh4">Lider Researcher expert in CATI</h4>
+								<h3 class="bold">
+									María Mendoza
+								</h3>
+								<h4 class="boldh4">
+									Lider Researcher expert in CATI
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -721,8 +923,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/7.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Rocío Aguilar</h3>
-								<h4 class="boldh4">Supervisor</h4>
+								<h3 class="bold">
+									Rocío Aguilar
+								</h3>
+								<h4 class="boldh4">
+									Supervisor
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -732,8 +938,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/8.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Viridiana Lozano</h3>
-								<h4 class="boldh4">Staff</h4><br>
+								<h3 class="bold">
+									Viridiana Lozano
+								</h3>
+								<h4 class="boldh4">
+									Staff
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -745,8 +955,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/9.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Ángel Espinoza</h3>
-								<h4 class="boldh4">Project manager</h4>
+								<h3 class="bold">
+									Ángel Espinoza
+								</h3>
+								<h4 class="boldh4">
+									Project manager
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -756,8 +970,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/10.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Carmen Gómez</h3>
-								<h4 class="boldh4">Researcher</h4>
+								<h3 class="bold">
+									Carmen Gómez
+								</h3>
+								<h4 class="boldh4">
+									Researcher
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -767,8 +985,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/11.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Manuel Villatoro</h3>
-								<h4 class="boldh4">South Partner</h4>
+								<h3 class="bold">
+									Manuel Villatoro
+								</h3>
+								<h4 class="boldh4">
+									South Partner
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -778,8 +1000,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/12.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Maribel Alvarado</h3>
-								<h4 class="boldh4">North Partner</h4>
+								<h3 class="bold">
+									Maribel Alvarado
+								</h3>
+								<h4 class="boldh4">
+									North Partner
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -791,8 +1017,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/17.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Rogelio Pali</h3>
-								<h4 class="boldh4">Supervisor</h4>
+								<h3 class="bold">
+									Rogelio Pali
+								</h3>
+								<h4 class="boldh4">
+									Supervisor
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -802,8 +1032,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/13.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Mario Espinoza</h3>
-								<h4 class="boldh4">Operacional assistant</h4>
+								<h3 class="bold">
+									Mario Espinoza
+								</h3>
+								<h4 class="boldh4">
+									Operacional assistant
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -813,8 +1047,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/14.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Mirna Villegas</h3>
-								<h4 class="boldh4">Lider Researcher</h4><br>
+								<h3 class="bold">
+									Mirna Villegas
+								</h3>
+								<h4 class="boldh4">
+									Lider Researcher
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -824,8 +1062,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/15.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Moisés Nava</h3>
-								<h4 class="boldh4">Project Coordinator</h4>
+								<h3 class="bold">
+									Moisés Nava
+								</h3>
+								<h4 class="boldh4">
+									Project Coordinator
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -838,8 +1080,12 @@
 								<img class="img-responsive img-circle zoom" src="images/team/16.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Oscar de los Cobos</h3>
-								<h4 class="boldh4">Center west partner</h4><br>
+								<h3 class="bold">
+									Oscar de los Cobos
+								</h3>
+								<h4 class="boldh4">
+									Center west partner
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -849,215 +1095,265 @@
 								<img class="img-responsive img-circle zoom" src="images/team/18.jpg" alt="">
 							</div>
 							<div class="member-info">
-								<h3 class="bold">Ana Luisa Ortiz</h3>
-								<h4 class="boldh4">Researcher</h4><br>
+								<h3 class="bold">
+									Ana Luisa Ortiz
+								</h3>
+								<h4 class="boldh4">
+									Researcher
+								</h4>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-3"></div>
 				</div>
-
-			</div>            
+			</div>
 		</div>
 	</section><!--/#team-->
-
 	<section id="features" class="parallax">
-	<div class="container">
-		<div class="row count">
-		<div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-			<i class="fa fa-file-text"></i>
-			<h3 class="timer">63275</h3>
-			<p>Surveys</p>
+		<div class="container">
+			<div class="row count">
+				<div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+					<i class="fa fa-file-text"></i>
+					<h3 class="timer">
+						63275
+					</h3>
+					<p>
+						Surveys
+					</p>
+				</div>
+				<div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<i class="fa fa-users"></i>
+					<h3 class="timer">
+						287
+					</h3>
+					<p>
+						Focus groups
+					</p>
+				</div> 
+				<div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+					<i class="fa fa-handshake-o"></i>
+					<h3 class="timer">
+						4965
+					</h3>
+					<p>
+						Recruited
+					</p>
+				</div> 
+				<div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
+					<i class="fa fa-comment-o"></i>
+					<h3>
+						24/7
+					</h3>
+					<p>
+						Support
+					</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
-			<i class="fa fa-users"></i>
-			<h3 class="timer">287</h3>                    
-			<p>Focus groups</p>
-		</div> 
-		<div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
-			<i class="fa fa-handshake-o"></i>
-			<h3 class="timer">4965</h3>                    
-			<p>Recruited</p>
-		</div> 
-		<div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
-			<i class="fa fa-comment-o"></i>                    
-			<h3>24/7</h3>
-			<p>Support</p>
-		</div>                 
-		</div>
-	</div>
 	</section><!--/#features-->
-
 	<section id="twitter" class="parallax">
-	<div>
-		<div class="container">
-		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
-			<div class="twitter-icon text-center">
-				<i class="fa fa-user"></i>
-				<h4>Happy Clients</h4>
-			</div>
-			<div id="twitter-carousel" class="carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
-				<div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-					<br>
-					<p>What I like about their services is the great operative capacity, speed of response and proven experience.</p>
-					<br><br><br>
-					<p><b>Edgar Rivas | Project Manager, Q Solutions</b></p>
-				</div>
-				<div class="item">
-					<br>
-					<p>Working with Profiles is a guarantee of quality in information; The efficiency and effectiveness with which they work gives good results for us as a group. Excellent service and service.</p>
-					<br><br><br>
-					<p><b>Roxana González | Anthropologist, Rotoplas Group</b></p>
-				</div>
-				<div class="item">
-					<br>                              
-					<p>Working with the Profiles team has been very satisfying. His team is very professional and willing to collaborate on any type of project, regardless of the difficulties. They make the impossible the possible to obtain the information, always taking care to maintain the quality in the activities that realize. He is an excellent trading partner.</p>
-					<br>
-					<p><b>Liliana Reyes | Director of operations, Acertiva</b></p>
-				</div>
-				</div>                        
-			</div>                    
-			</div>
-		</div>
-		</div>
-	</div>
-	</section><!--/#twitter-->
-
-	
-	<!--
-	<div class="google-map wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">
-		<iframe src="https://www.google.com/maps/d/embed?mid=1vdxGJjmEsBJtG6c0JnY3Fr1QA60" width="100%" height="350"></iframe>
-	</div>
-	-->
-
-	<section id="contact">
-	</div>
-	<div id="contact-us" class="parallax">
-		<div class="container">
-			<div class="row">
-				<div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-					<h2 class="h2quality">Contact</h2>
-					<p>We are here for your service, below these lines you will find our Company information where you can easy and immediately contact us, or if you prefer, you might want to send us a message with the attached contact format.</p>
-				</div>
-			</div>
-			<div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+		<div>
+			<div class="container">
 				<div class="row">
-					<div class="col-sm-6">
-						<form id="form1" name="form1" method="post" action="send-en.php">
-							<div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-								<div class="col-sm-6">
-									<div class="form-group">
-										<input id="nombre" type="text" name="nombre" class="form-control" placeholder="Name" required="required">
-									</div>
+					<div class="col-sm-8 col-sm-offset-2">
+						<div class="twitter-icon text-center">
+							<i class="fa fa-user"></i>
+							<h4>
+								Happy Clients
+							</h4>
+						</div>
+						<div id="twitter-carousel" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+									<br>
+									<p>
+										What I like about their services is the great operative capacity, speed of response and proven experience.
+									</p>
+									<br><br><br>
+									<p>
+										<b>Edgar Rivas | Project Manager, Q Solutions</b>
+									</p>
 								</div>
-								<div class="col-sm-6">
-									<div class="form-group">
-										<input id="email" type="email" name="email" class="form-control" placeholder="Email" required="required">
-									</div>
+								<div class="item">
+									<br>
+									<p>
+										Working with Profiles is a guarantee of quality in information; The efficiency and effectiveness with which they work gives good results for us as a group. Excellent service and service.
+									</p>
+									<br><br><br>
+									<p>
+										<b>Roxana González | Anthropologist, Rotoplas Group</b>
+									</p>
+								</div>
+								<div class="item">
+									<br>
+									<p>
+										Working with the Profiles team has been very satisfying. His team is very professional and willing to collaborate on any type of project, regardless of the difficulties. They make the impossible the possible to obtain the information, always taking care to maintain the quality in the activities that realize. He is an excellent trading partner.
+									</p>
+									<br>
+									<p>
+										<b>Liliana Reyes | Director of operations, Acertiva</b>
+									</p>
 								</div>
 							</div>
-							<div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-								<div class="col-sm-6">
-									<div class="form-group">
-										<input id="nombre" type="tel" name="oficina" class="form-control" placeholder="Office" required="required">
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="form-group">
-										<input id="email" type="tel" name="movil" class="form-control" placeholder="Mobile Phone" required="required">
-									</div>
-								</div>
-							</div>
-							<div class="form-group">
-								<input id="asunto" type="text" name="asunto" class="form-control" placeholder="Matter" required="required">
-							</div>
-							<div class="form-group">
-								<textarea id="comentario" name="comentario" class="form-control" rows="4" placeholder="Message" required="required"></textarea>
-							</div>
-							<div class="form-group">
-								<div class="g-recaptcha" data-sitekey="6LcDOyMUAAAAANZ5vbIzcTYKaXDjjOTwHbmtwxY8"></div>
-								<button type="submit" class="btn-submit" value="Send">Send</button>
-							</div>
-						</form>
-					</div>
-					<div class="col-sm-6">
-						<div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-							<ul class="address">
-								<li>
-									<i class="fa fa-map-marker"></i> <span> Location</span> 
-									<a>
-										<br>&middot; Blvd. Ozumbilla Mz. 92 Lt. 33 Casa 2,<br>&middot; Col. Los Héroes de Tecámac Sección Bosques,<br>&middot; Tecámac Estado De México.<br>&middot; C.P. 55764
-									</a>
-								</li>
-								<li>
-									<i class="fa fa-phone"></i> <span> Telephone and Fax fields</span>
-									<a href="tel:+52 (55) 3612 0549" target="_blank">
-										<br>&middot; +52 (55) 3612.0549
-									</a>
-								</li>
-								<li>
-									<i class="fa fa-envelope"></i> <span> Email</span>
-									<a href="mailto:contacto@profiles.com.mx" target="_blank">
-										<br>&middot; contacto@profiles.com.mx
-									</a>
-								</li>
-								<li>
-									<i class="fa fa-facebook"></i> <span> Facebook</span>
-									<a href="http://facebook.com/Profilesmkt" target="_blank">
-										<br>&middot; www.facebook.com/Profilesmkt
-									</a>
-								</li>
-								<li>
-									<i class="fa fa-twitter"></i> <span> Twitter</span>
-									<a href="http://twitter.com/Profilesmkt" target="_blank">
-										<br>&middot; www.twitter.com/Profilesmkt
-									</a>
-								</li>
-							</ul>
-						</div>                            
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>        
+	</section><!--/#twitter-->
+	<section id="contact">
+		<div id="contact-us" class="parallax">
+			<div class="container">
+				<div class="row">
+					<div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<h2 class="h2quality">
+							Contact
+						</h2>
+						<p>
+							We are here for your service, below these lines you will find our Company information where you can easy and immediately contact us, or if you prefer, you might want to send us a message with the attached contact format.
+						</p>
+					</div>
+				</div>
+				<div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+					<div class="row">
+						<div class="col-sm-6">
+							<form id="form1" name="form1" method="post" action="send-en.php">
+								<div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input id="nombre" type="text" name="nombre" class="form-control" placeholder="Name" required="required">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input id="email" type="email" name="email" class="form-control" placeholder="Email" required="required">
+										</div>
+									</div>
+								</div>
+								<div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input id="nombre" type="tel" name="oficina" class="form-control" placeholder="Office" required="required">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<input id="email" type="tel" name="movil" class="form-control" placeholder="Mobile Phone" required="required">
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<input id="asunto" type="text" name="asunto" class="form-control" placeholder="Matter" required="required">
+								</div>
+								<div class="form-group">
+									<textarea id="comentario" name="comentario" class="form-control" rows="4" placeholder="Message" required="required"></textarea>
+								</div>
+								<div class="form-group">
+									<div class="g-recaptcha" data-sitekey="6LcDOyMUAAAAANZ5vbIzcTYKaXDjjOTwHbmtwxY8"></div>
+									<button type="submit" class="btn-submit" value="Send">Send</button>
+								</div>
+							</form>
+						</div>
+						<div class="col-sm-6">
+							<div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+								<ul class="address">
+									<li>
+										<i class="fa fa-map-marker"></i> <span> Location</span> 
+										<a>
+											<br>&middot; Blvd. Ozumbilla Mz. 92 Lt. 33 Casa 2,<br>&middot; Col. Los Héroes de Tecámac Sección Bosques,<br>&middot; Tecámac Estado De México.<br>&middot; C.P. 55764
+										</a>
+									</li>
+									<li>
+										<i class="fa fa-phone"></i> <span> Telephone and Fax fields</span>
+										<a href="tel:+52 (55) 3612 0549" target="_blank">
+											<br>&middot; +52 (55) 3612.0549
+										</a>
+									</li>
+									<li>
+										<i class="fa fa-envelope"></i> <span> Email</span>
+										<a href="mailto:contacto@profiles.com.mx" target="_blank">
+											<br>&middot; contacto@profiles.com.mx
+										</a>
+									</li>
+									<li>
+										<i class="fa fa-facebook"></i> <span> Facebook</span>
+										<a href="http://facebook.com/Profilesmkt" target="_blank">
+											<br>&middot; www.facebook.com/Profilesmkt
+										</a>
+									</li>
+									<li>
+										<i class="fa fa-twitter"></i> <span> Twitter</span>
+										<a href="http://twitter.com/Profilesmkt" target="_blank">
+											<br>&middot; www.twitter.com/Profilesmkt
+										</a>
+									</li>
+								</ul>
+							</div>    
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>        
 	</section><!--/#contact-->
 	<footer id="footer">
-	<div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-		<div class="container text-center">
-			<div class="footer-logo">
-				<a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
-			</div>
-			<div class="social-icons">
-				<ul>
-					<li><a class="facebook" href="https://www.facebook.com/Profilesmkt" target="_blank"><i class="fa fa-facebook"></i></a></li>
-					<li><a class="twitter" href="https://twitter.com/Profilesmkt" target="_blank"><i class="fa fa-twitter"></i></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="footer-bottom">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4 text-center">
-					<a href="aviso-de-privacidad.html" target="_blank">Notice of Privacy</a><br>
-					<a href="mailto:contacto@profiles.com.mx" target="_blank">contacto@profiles.com.mx</a>
+		<div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+			<div class="container text-center">
+				<div class="footer-logo">
+					<a href="index.html">
+						<img class="img-responsive" src="images/logo.png" alt="">
+					</a>
 				</div>
-				<div class="col-sm-4 text-center">
-					<p><b>&copy; 2017 Profiles</b><br>Fieldwork and logistic marketing research S.A. de C.V.</p>
-				</div>
-				<div class="col-sm-4 text-center">
-					<p class="pull-right"><a href="job-opportunities.html" target="_blank">Job<br>Opportunities</a></p>
-				</div>
-				<div class="col-md-12 text-center">
-					<p class="center"><a href="http://saits.xyz/en.html" target="_blank">Development by Saits</a></p>
+				<div class="social-icons">
+					<ul>
+						<li>
+							<a class="facebook" href="https://www.facebook.com/Profilesmkt" target="_blank">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a class="twitter" href="https://twitter.com/Profilesmkt" target="_blank">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
-	</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 text-center">
+						<a href="aviso-de-privacidad.html" target="_blank">
+							Notice of Privacy
+						</a>
+						<br>
+						<a href="mailto:contacto@profiles.com.mx" target="_blank">
+							contacto@profiles.com.mx
+						</a>
+					</div>
+					<div class="col-sm-4 text-center">
+						<p>
+							<b>&copy; 2017 Profiles</b><br>Fieldwork and logistic marketing research S.A. de C.V.
+						</p>
+					</div>
+					<div class="col-sm-4 text-center">
+						<p class="pull-right">
+							<a href="job-opportunities.html" target="_blank">
+								Job<br>Opportunities
+							</a>
+						</p>
+					</div>
+					<div class="col-md-12 text-center">
+						<p class="center">
+							<a href="http://saits.xyz/en.html" target="_blank">
+								Development by Saits
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer>
-
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery.inview.min.js"></script>
@@ -1067,6 +1363,5 @@
 	<script type="text/javascript" src="js/jquery.countTo.js"></script>
 	<script type="text/javascript" src="js/lightbox.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
-
 </body>
 </html>
